@@ -1,8 +1,0 @@
-#summary One-sentence summary of this page.
-
-= Requirements  =
-
-Here is a parts list of Cloudosys.
-  * *Google Gears* http://gears.google.com
-  * *YUI* http://developer.yahoo.com/yui/
-  * Cloudosys public server: http://www.cloudosys.com/cloudosys/
