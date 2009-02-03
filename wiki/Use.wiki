@@ -1,4 +1,4 @@
-#Cost effective way to use web applications.
+#summary Cost effective way to use web applications.
 
 = Ideas of Use =
 
