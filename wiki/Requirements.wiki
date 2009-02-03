@@ -1,6 +1,6 @@
-#summary Requirements.
+#summary Requirements - 3 big parts
 
-= Requirements - 3 big parts =
+= Requirements =
 
 Here is a parts list of Cloudosys.  You do not have to worry about installing these manually.
   * *Google Gears* http://gears.google.com
