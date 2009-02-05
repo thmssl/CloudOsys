@@ -1,4 +1,4 @@
-#summary Cost effective way to use web applications.
+#summary Cost effective way to enable your visitors to upload and share media content such as photos, videos and music.
 
 = Ideas of Use =
 
