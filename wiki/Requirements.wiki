@@ -6,4 +6,3 @@ Here is a parts list of Cloudosys.  You do not have to worry about installing th
   * *Google Gears* http://gears.google.com
   * *YUI* http://developer.yahoo.com/yui/
   * Cloudosys PHP backend script - public server at: http://www.cloudosys.com/cloudosys/
-  * or available for download at: http://code.google.com/p/cloudosys/downloads/list
