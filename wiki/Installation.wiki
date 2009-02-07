@@ -4,20 +4,25 @@
 
 Unzip file contents into your hard disk (c://) and make sure that all contents are within the single directory called "cloudosys."  The directory structure should look like this:
 
-c://cloudosys/setup/install.php
-c://cloudosys/index.php
+C://cloudosys/setup/install.php
+C://cloudosys/index.php
+C://cloudosys/*.* <- all other files must be relative to this directory.
+
+for example, some file found in the directory will be C://cloudosys/main.php
 
 It is important that the rest of the files are in this directory structure as structured in the .zip file.
 
-Wrong:   c://cloudosys/cloudosys/setup/install.php
-Wrong:   c://somedirectory/cloudosys/setup/install.php
+Wrong:   C://cloudosys/cloudosys/setup/install.php
+Wrong:   C://somedirectory/cloudosys/setup/install.php
 
-Correct: c://cloudosys/setup/install.php
+Correct: C://cloudosys/setup/install.php
 
-also, make sure the contents fall below as any subdirectories other than cloudosys
+also, make sure all the contents of Cloudosys DO NOT fall below as any subdirectories other than the C://cloudosys directory.
 
 
 = Step 2 =
+
+Above directory structure must be place exactly the same way on your server.
 
 Upload the above directory (cloudosys) to your top level directory on your hosted server.
 
@@ -27,7 +32,45 @@ Wrong: http://www.yourdomain.com/somedirectory/setup/install.php
 
 = Step 3 =
 
-After transferring all files to your server through FTP, run setup by heading this your link to the install.php script.
+After transferring all files to your server through FTP, run setup by heading this link on your browser to the install.php script.
 
 It must look like this: http://www.yourdomain.com/cloudosys/setup/install.php
+
+= MySQL =
+
+During setup, step 1/3, you will be asked the following:
+
+Hostname: _____________
+ *Hostname to your database.
+
+Database: _____________
+ *database name is cloud_db by default. (recommended)
+
+Username: _____________
+ *Username to access your database
+
+Password: _____________
+ *Password to your database
+
+Domain: _____________
+ *your domain address. EXCLUDE the protocol http://
+ 
+ *Example: if your domain is http://www.mydomain.com, then only input www.mydomain.com
+
+ Below is a list of correct/incorrect configuration settings.
+ 
+ *incorrect: http://www.mydomain.net
+ *incorrect: http://www.mydomain.net/cloudosys/
+
+ *correct: www.mydomain.net
+ *correct: www.mydomain.biz
+ *correct: mysubdomain.mydomain.com
+ *correct: www.123.co.uk
+
+Space Limit: _____________
+ *set a space limit to allow each visitor use to upload file. 
+ *setting 100MB will give User A 100MB of space to work with.
+
+
+
 
