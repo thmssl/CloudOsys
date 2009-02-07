@@ -7,7 +7,7 @@ Unzip file contents into your hard disk (C://) and make sure that all contents a
 
 C://cloudosys/setup/install.php
 C://cloudosys/index.php
-C://cloudosys/*.* <- all other files must be relative to this directory.
+C://cloudosys/ <- all other files and directories must be relative to this directory.
 
 for example, some file found in the directory will be C://cloudosys/main.php
 
