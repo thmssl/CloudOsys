@@ -3,7 +3,7 @@
 
 = Step 1 =
 
-Unzip file contents into your hard disk (c://) and make sure that all contents are within the single directory called "cloudosys."  The directory structure should look like this:
+Unzip file contents into your hard disk (C://) and make sure that all contents are within the single directory called "cloudosys."  The directory structure should look like this:
 
 C://cloudosys/setup/install.php
 C://cloudosys/index.php
