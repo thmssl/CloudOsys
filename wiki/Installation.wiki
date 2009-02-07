@@ -33,7 +33,7 @@ Wrong: http://www.yourdomain.com/somedirectory/setup/install.php
 
 = Step 3 =
 
-After transferring all files to your server through FTP, run setup by heading this link on your browser to the install.php script.
+After transferring all files to your server through FTP, run setup by heading this link to the install.php script, on your browser.
 
 It must look like this: http://www.yourdomain.com/cloudosys/setup/install.php
 
