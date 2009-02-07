@@ -1,4 +1,5 @@
 #summary Instructions on installing to your web hosting service.
+#labels Instructions
 
 = Step 1 =
 
@@ -44,7 +45,7 @@ Hostname: _____________
  * Hostname to your database.
 
 Database: _____________
- * database name is cloud_db by default. (recommended)
+ * database name is set to "cloud_db" by default. (recommended)
 
 Username: _____________
  * Username to access your database
@@ -70,5 +71,3 @@ Domain: _____________
 Space Limit: _____________
  *set a space limit to allow each visitor use to upload file. 
  *setting 100MB will give User A 100MB of space to work with.
-
-
