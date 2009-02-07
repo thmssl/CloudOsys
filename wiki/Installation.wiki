@@ -71,3 +71,7 @@ Domain: _____________
 Space Limit: _____________
  * set a space limit to allow each visitor use to upload file. 
  * setting 100MB will give User A 100MB of space to work with.
+
+If anything is unclear, feel free to comment below.  I will remove any comments once I make changes to the Wiki. 
+
+Thanks!
