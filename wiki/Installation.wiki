@@ -54,20 +54,20 @@ Password: _____________
  * Password to your database
 
 Domain: _____________
- *your domain address. EXCLUDE the protocol http://
+ * your domain address. EXCLUDE the protocol http://
  
- *Example: if your domain is http://www.mydomain.com, then only input www.mydomain.com
+ * Example: if your domain is http://www.mydomain.com, then only input www.mydomain.com
 
  Below is a list of correct/incorrect configuration settings.
  
- *incorrect: http://www.mydomain.net
- *incorrect: http://www.mydomain.net/cloudosys/
+ * incorrect: http://www.mydomain.net
+ * incorrect: http://www.mydomain.net/cloudosys/
 
- *correct: www.mydomain.net
- *correct: www.mydomain.biz
- *correct: mysubdomain.mydomain.com
- *correct: www.123.co.uk
+ * correct: www.mydomain.net
+ * correct: www.mydomain.biz
+ * correct: mysubdomain.mydomain.com
+ * correct: www.123.co.uk
 
 Space Limit: _____________
- *set a space limit to allow each visitor use to upload file. 
- *setting 100MB will give User A 100MB of space to work with.
+ * set a space limit to allow each visitor use to upload file. 
+ * setting 100MB will give User A 100MB of space to work with.
