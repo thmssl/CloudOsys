@@ -13,8 +13,8 @@ for example, some file found in the directory will be C://cloudosys/main.php
 
 It is important that the rest of the files are in this directory structure as structured in the .zip file.
 
-Wrong:   C://cloudosys/cloudosys/setup/install.php
-Wrong:   C://somedirectory/cloudosys/setup/install.php
+incorrect:   C://cloudosys/cloudosys/setup/install.php
+incorrect:   C://somedirectory/cloudosys/setup/install.php
 
 Correct: C://cloudosys/setup/install.php
 
@@ -27,7 +27,7 @@ Above directory structure must be place exactly the same way on your server.
 
 Upload the above directory (cloudosys) to your top level directory on your hosted server.
 
-Correct: http://www.yourdomain.com/cloudosys/setup/install.php
+correct: http://www.yourdomain.com/cloudosys/setup/install.php
 
 Wrong: http://www.yourdomain.com/somedirectory/setup/install.php
 
