@@ -1,8 +1,7 @@
-#summary Requirements - 3 big parts
-
+#summary Requirements
 = Requirements =
 
 Here is a parts list of Cloudosys.  You do not have to worry about installing these manually.
-  * *Google Gears* http://gears.google.com
-  * *YUI* http://developer.yahoo.com/yui/
+  * *Google Gears* http://gears.google.com (Auto detect)
+  * *YUI* http://developer.yahoo.com/yui/ (You do not need to download this as it's part of the zip file.)
   * Cloudosys PHP backend script - public server at: http://www.cloudosys.com/cloudosys/
