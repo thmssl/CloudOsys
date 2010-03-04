@@ -1,7 +1,0 @@
-#summary A low learning curve.
-
-= Introduction =
-
-Cloudosys user interface is a desktop metaphor:
-
-http://en.wikipedia.org/wiki/Desktop_metaphor
